@@ -6,6 +6,19 @@ __v0_jsx-dev-runtime.ts
 # Common ignores
 node_modules
 .next/
-.env*.local
 .DS_Store
+
+# Environment files (keep secrets safe)
 .env
+.env.local
+.env*.local
+
+# Build output
+dist/
+build/
+
+# Large binary files
+*.apk
+*.exe
+*.dmg
+*.zip
